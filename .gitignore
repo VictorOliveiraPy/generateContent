@@ -1,0 +1,26 @@
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Ambiente e cache
+.venv/
+__pycache__/
+*.pyc
+
+# Banco local com histórico das conversas do agente
+*.db
+*.sqlite3
+
+# Conteúdo de terceiros e arquivos gerados (pesados / com direitos autorais)
+videos/
+transcricoes/
+referencias/
+imagens_geradas/
+videos_gerados/
+videos_editados/
+audios_gerados/
+*.mp4
+*.mp3
+*.m4a
+avatar_*.png

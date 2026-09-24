@@ -1,0 +1,12 @@
+# Um post por linha: link e, opcionalmente, o nome da pasta dentro de referencias/ (padrao: instagram)
+https://www.instagram.com/p/DdZj9rTke9U?img_index=1 referencia-arautos
+https://www.instagram.com/p/Dc7iU4hGsPy?img_index=8 referencia-2
+https://www.instagram.com/p/Ddmf-Xqny6v/?img_index=10 referencia-padre-paulo-ricardo
+https://www.instagram.com/p/DdgiT0RkeUb/?img_index=9 referencia-padre-paulo-ricardo/evangelho-do-dia
+https://www.instagram.com/p/DdTqXrqDqAz/?img_index=9 referencia-padre-paulo-ricardo
+https://www.instagram.com/p/DdorZDklqo5/?img_index=10 referencia-clube-catolico
+https://www.instagram.com/p/DdkPOHOFj5A/?img_index=7 referencia-clube-catolico
+https://www.instagram.com/p/Ddhfhe5jS6r/?img_index=9 referencia-clube-catolico
+https://www.instagram.com/p/Ddd2praDVNc/?img_index=10 referencia-clube-catolico
+https://www.instagram.com/p/DdZCTa9lsqm/?img_index=10 referencia-clube-catolico
+https://www.instagram.com/p/DdUtZqslokL/?img_index=10 referencia-clube-catolico

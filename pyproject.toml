@@ -1,0 +1,29 @@
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "generate-content"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "victor",email = "oliveiravictordev@gmail.com"}
+]
+requires-python = "^3.13"
+dependencies = [
+    "agno (==1.5.0)",
+    "python-dotenv (>=1.2.3,<2.0.0)",
+    "groq (>=1.7.0,<2.0.0)",
+    "tavily-python (>=0.8.4,<0.9.0)",
+    "fastapi (>=0.141.1,<0.142.0)",
+    "uvicorn (>=0.53.0,<0.54.0)",
+    "openai (>=3.18.0,<4.0.0)",
+    "sqlalchemy (>=2.0.54,<3.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "pillow (>=12.3.0,<13.0.0)",
+    "instaloader (>=4.15.3,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

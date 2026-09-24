@@ -23,7 +23,10 @@ copywriter = Agent(
     storage=SqliteStorage(table_name="agent_session", db_file="tpmstorage.db"),
 )
 
-app = Playground(agents=[copywriter]).get_app()
+playground = Playground(agents=[copywriter])
+app = playground.get_app()
+# a interface web do Agno chama tanto /v1/playground quanto /playground
+app.include_router(playground.get_async_router())
 
 if __name__ == "__main__":
     serve_playground_app("agent:app", reload=True)

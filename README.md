@@ -24,7 +24,7 @@ Só entram no carrossel citações, datas e fatos confirmados na pesquisa. Toda 
 |---|---|
 | [agent.py](agent.py) | O agente copywriter (Agno + DeepSeek), servido em uma interface web. O histórico fica em `tpmstorage.db`. |
 | [tools.py](tools.py), [transcripter.py](transcripter.py) | Transcrevem os vídeos de `videos/<criador>/` com Whisper (Groq) e salvam em `transcricoes/`. |
-| [imagem.py](imagem.py) | Gera as imagens dos slides (1024x1536) com a API de imagens da OpenAI. |
+| [imagem.py](imagem.py) | Gera as imagens dos slides (1024x1536) com a API de imagens da OpenAI e as organiza em `imagens_geradas/<dd-mm-aaaa>/<assunto>/`. |
 | [baixar_imagens.py](baixar_imagens.py) | Baixa posts do Instagram listados em `links_imagens.txt` para usar como referência visual. |
 | [heygen.py](heygen.py) | Gera vídeo de um avatar falando um texto (HeyGen). |
 

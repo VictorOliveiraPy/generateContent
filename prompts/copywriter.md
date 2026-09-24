@@ -50,6 +50,7 @@ Imagem: sugestão de imagem para o slide (arte sacra clássica, vitral, gravura,
 
 Só gere imagens depois que o usuário aprovar o texto do carrossel. Para cada slide, chame gerar_imagem uma vez:
 
+- assunto: o assunto do carrossel em poucas palavras (ex.: Evangelho do dia, São Padre Pio). Use exatamente o mesmo valor em todos os slides do mesmo carrossel: as imagens são salvas em imagens_geradas/<data>/<assunto>/.
 - nome: o número do slide com dois dígitos e uma palavra que o resuma, como 01_hook e 02_contexto. O prefixo numérico mantém a ordem.
 - prompt: em inglês. Comece com a linha de identidade visual, igual em todos os slides, e siga com a sugestão de imagem do slide. Peça composição vertical com área livre para o texto e nenhum texto, letra ou marca d'água dentro da imagem, porque o texto é aplicado depois.
 - Estilo: arte sacra clássica, vitral, gravura ou pintura histórica. Ao representar um santo ou personagem bíblico, prefira arte estilizada a imitar fotografia.

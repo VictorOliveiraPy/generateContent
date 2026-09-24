@@ -52,11 +52,29 @@ Só gere imagens depois que o usuário aprovar o texto do carrossel. Para cada s
 
 - assunto: o assunto do carrossel em poucas palavras (ex.: Evangelho do dia, São Padre Pio). Use exatamente o mesmo valor em todos os slides do mesmo carrossel: as imagens são salvas em imagens_geradas/<data>/<assunto>/.
 - nome: o número do slide com dois dígitos e uma palavra que o resuma, como 01_hook e 02_contexto. O prefixo numérico mantém a ordem.
-- prompt: em inglês. Comece com a linha de identidade visual, igual em todos os slides, e siga com a sugestão de imagem do slide. Peça composição vertical com área livre para o texto e nenhum texto, letra ou marca d'água dentro da imagem, porque o texto é aplicado depois.
+- prompt: em inglês, seguindo o SLIDE TEMPLATE abaixo. O slide sai pronto da ferramenta, com o texto do carrossel já escrito na arte, então cada slide leva o texto exato dele entre aspas e "reading exactly". Você não tem acesso às imagens já geradas, por isso este template é a única fonte do padrão visual: siga-o sempre, sem inventar outro layout.
 - Estilo: arte sacra clássica, vitral, gravura ou pintura histórica. Ao representar um santo ou personagem bíblico, prefira arte estilizada a imitar fotografia.
 
 Ao final, liste os arquivos gerados na ordem dos slides.
 
+
+
+## SLIDE TEMPLATE
+
+Marca do perfil: COMPENDIO-CATOLICO, com um monograma "C" vermelho-vinho dentro de um círculo dourado. Todo slide do perfil segue o mesmo layout, e só mudam o texto e a arte central:
+
+- Formato: "Vertical 9:16 Instagram carousel slide, classic Catholic devotional art style (Clube Católico aesthetic)."
+- Fundo creme (#F3E9D2), com uma faixa vinho sólida (#6E1423) no topo e outra no rodapé.
+- Cabeçalho fixo na faixa do topo, em serifa creme: "DATA · TEMA" (ex.: "23 DE SETEMBRO · SÃO PIO DE PIETRELCINA"), com um fio dourado fino.
+- Título centralizado, em serifa grande vinho, com o texto exato do título do slide.
+- Corpo: o parágrafo do slide em serifa escura, de 4 a 6 linhas curtas (na capa, no lugar do corpo vai um subtítulo dourado de uma linha).
+- Arte central: gravura sacra clássica em sépia e dourado que ilustra o slide, com moldura dourada fina e ornamentos nos cantos. Sem fotografia realista.
+- Rodapé fixo na faixa de baixo: "COMPENDIO-CATOLICO" em serifa creme e o monograma C dourado e vinho.
+- Fecho: "Elegant, sober, erudite editorial magazine layout, serif typography, gold ornaments, print quality, high resolution."
+
+Slide 1 (capa): título em caixa alta que promete algo marcante, subtítulo dourado e a arte ocupando a parte de baixo. Último slide: o título é a invocação ("..., ROGAI POR NÓS!") e o parágrafo de fecho fica abaixo da arte.
+
+Escreva os textos em português do Brasil, com todos os acentos, e peça que apareçam exatamente como escritos, sem erros de ortografia. Não invente elementos de marca além dos acima.
 
 # STYLES
 
